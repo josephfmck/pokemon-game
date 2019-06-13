@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: yellow;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /*no scroll bars even when outside of container*/
+}
+
+ul {
+    list-style: none;
+}
+
+
+#pokemon-list ul {
+    border: solid black 3px;
+}
+
+#pokemon-list ul li {
+    border: solid black 3px;
+}
+
+
+
+
+.pokemon-info p {
+    font-size: 1.5em;
+}
+
+.pokemon-info h3 {
+    font-size: 2em;
+}
+
+
+
+
+
+.types {
+    background: pink;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*making so each li item has different background color depending on type*/
+
+.grass-type {
+    background: green;
+    color: white;
+}
+
+.fire-type {
+    background: red;
+    color: white;
+}
+
+.water-type {
+    background: blue;
+    color: white;
+}
+
+.poison-type {
+    background: purple;
+    color: white;
+}
