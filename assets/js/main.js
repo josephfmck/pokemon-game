@@ -42,11 +42,56 @@ const pokemon = [
     }
 ];
 
-var bulbasaur = pokemon[0];
-var charmander = pokemon[1];
-var squirtle = pokemon[2];
+const bulbasaur = pokemon[0];
+const charmander = pokemon[1];
+const squirtle = pokemon[2];
 console.log(bulbasaur);
 console.log(charmander);
 console.log(squirtle);
+
+
+
+//SET YOUR CHOSEN POKEMON
+//want to set myPokemon var to whatever pokemon we choose
+
+//declare pokemon var? as a function?
+var myPokemon = bulbasaur;
+
+
+
+
+//CREATE CHOOSE POKEMON BUTTONS
+const chooseBtnBulbasaur = document.querySelector('#choose-bulbasaur');
+const chooseBtnCharmander = document.querySelector('#choose-charmander');
+const chooseBtnSquirtle = document.querySelector('#choose-squirtle');
+
+
+chooseBtnBulbasaur.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log('bulba');
+});
+
+chooseBtnCharmander.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log('char');
+});
+
+chooseBtnSquirtle.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log('squirt');
+});
+
+
+
+
+//Create attack button 
+const attackButton = document.querySelector('.attack-button');
+console.log(attackButton);
+
+attackButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log('attack');
+});
+
 
 
